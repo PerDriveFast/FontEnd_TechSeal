@@ -1,0 +1,46 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  &-container {
+    //facb
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    align-self: auto;
+  }
+  &-auth {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+    text-transform: capitalize;
+  }
+  &-nhanvien {
+    padding: 13px 45px;
+    border-radius: 100rem;
+    font-weight: 500;
+    color: $heading-color;
+    border: 1px solid rgb(121, 121, 122);
+    font-weight: 500;
+    background-color: #d9d9d9;
+  }
+  &-dichvu {
+    padding: 13px 45px;
+    border-radius: 100rem;
+    color: white;
+    border: 1px solid blue;
+    font-weight: 500;
+    background-color: #0075ffad;
+  }
+}
+.menu {
+  list-style: none;
+  //facenter
+  display: flex;
+  align-items: center;
+  gap: 0 140px;
+  &-link {
+    //kế thừa từ body
+    color: inherit;
+  }
+}
